@@ -10,10 +10,10 @@ import javafx.scene.control.ButtonType;
 public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
-			RootFlowPane root = new RootFlowPane();
+			RootBorderPane root = new RootBorderPane();
 			Scene scene = new Scene(root, 700, 500);
 			primaryStage.setScene(scene);
-			primaryStage.setTitle("GUI-Uebung 3");
+			primaryStage.setTitle("GUI-Uebung 4");
 			primaryStage.show();
 		} catch (Exception e) {
 			showAlert(AlertType.ERROR, e.getMessage());
